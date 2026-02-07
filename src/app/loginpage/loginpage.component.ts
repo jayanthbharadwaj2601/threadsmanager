@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 })
 export class LoginpageComponent {
   login() {
-    let url = "https://threads.net/oauth/authorize?client_id=592174793953037&redirect_uri=https://threadsmanager.netlify.app/Home&scope=threads_basic,threads_content_publish&response_type=code"
+    let url = "https://threads.net/oauth/authorize?client_id=592174793953037&redirect_uri=https://threadspostingmanager-z4j4.vercel.app/Home&scope=threads_basic,threads_content_publish&response_type=code"
     
     window.open(url, '_system');
   }
